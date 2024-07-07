@@ -5,4 +5,6 @@ project (Transformation)
 #include_directories(EIGEN3_INCLUDE_DIR)
 include_directories(./../)
 
+#include_directories("/opt/homebrew/Cellar/eigen/3.4.0_1/include/")
+
 add_executable (Transformation main.cpp)

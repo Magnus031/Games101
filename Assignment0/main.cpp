@@ -44,5 +44,15 @@ int main(){
     // matrix multiply i * j
     // matrix multiply vector i * v
 
+    float angle = 45.0 / 180.0 * acos(-1);
+    Eigen::Matrix2f rotation_matrix;
+    rotation_matrix << cos(angle), -sin(angle), sin(angle), cos(angle);
+    Eigen::Vector2f point(2.0, 1.0);
+    std::cout << rotation_matrix * point << std::endl;
+
+    //translation vector
+    Eigen::Vector2f translation(1.0, 2.0);
+    std::cout << rotation_matrix * point + translation << std::endl;
+
     return 0;
 }

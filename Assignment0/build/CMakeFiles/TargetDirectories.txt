@@ -1,0 +1,3 @@
+/Users/magnus/Desktop/Code/Games101/Assignment0/build/CMakeFiles/Transformation.dir
+/Users/magnus/Desktop/Code/Games101/Assignment0/build/CMakeFiles/edit_cache.dir
+/Users/magnus/Desktop/Code/Games101/Assignment0/build/CMakeFiles/rebuild_cache.dir
